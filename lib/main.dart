@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.brown[800],
         appBar: AppBar(
@@ -53,17 +54,17 @@ class LinktreePage extends StatelessWidget {
         ),
         Wrap(
           alignment: WrapAlignment.center,
-          spacing: 20.0,
-          runSpacing: 20.0,
+          spacing: 15.0,
+          runSpacing: 5,
           children: [
-            Icon(Icons.facebook, size: 50.0, color: Colors.white),
-            Icon(Icons.code, size: 50.0, color: Colors.white),
-            Icon(Icons.message, size: 50.0, color: Colors.white),
+            Icon(Icons.facebook, size: 40.0, color: Colors.white),
+            Icon(Icons.code, size: 40.0, color: Colors.white),
+            Icon(Icons.message, size: 40.0, color: Colors.white),
             Icon(Icons.camera_alt,
-                size: 50.0, color: Colors.white), // Instagram
-            Icon(Icons.snapchat, size: 50.0, color: Colors.white), // Snapchat
+                size: 40.0, color: Colors.white), // Instagram
+            Icon(Icons.snapchat, size: 40.0, color: Colors.white), // Snapchat
             Icon(Icons.alternate_email,
-                size: 50.0, color: Colors.white), // Twitter
+                size: 40.0, color: Colors.white), // Twitter
           ],
         ),
         SizedBox(
